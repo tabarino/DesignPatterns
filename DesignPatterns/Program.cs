@@ -16,9 +16,15 @@ namespace DesignPatterns
             // user.SayHello();
 
             // Interfaces
-            ITaxCalculator calculator = new TaxCalculator2020();
-            var tax = calculator.CalculateTax();
-            Console.WriteLine($"Tax: {tax}");
+            // ITaxCalculator calculator = new TaxCalculator2020();
+            // var tax = calculator.CalculateTax();
+            // Console.WriteLine($"Tax: {tax}");
+
+            // Encapsulation
+            var account = new Account();
+            account.Deposit(10);
+            account.Withdraw(5);
+            Console.WriteLine($"Balance: {account.Balance}");
         }
     }
 }
