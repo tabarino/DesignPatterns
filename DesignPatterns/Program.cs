@@ -31,8 +31,12 @@ namespace DesignPatterns
             // mailService.SendEmail();
 
             // Third Principle of OOP -> Inheritance
-            var textBox = new TextBox();
-            textBox.Enable();
+            // var textBox = new TextBox();
+            // textBox.Enable();
+
+            // Fourth Principle of OOP -> Polymorphism (Many Forms)
+            _ = new DrawUIControl(new TextBox());
+            _ = new DrawUIControl(new CheckBox());
         }
     }
 }

@@ -2,11 +2,11 @@ using System;
 
 namespace DesignPatterns
 {
-    public class TextBox : UIControl
+    public class CheckBox : UIControl
     {
         public override void Draw()
         {
-            Console.WriteLine("Drawing a TextBox");
+            Console.WriteLine("Drawing a CheckBox");
         }
     }
 }
