@@ -6,8 +6,19 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            var user = new User("Ivan");
-            user.SayHello();
+            Essential();
+        }
+
+        static void Essential()
+        {
+            // Classes
+            // var user = new User("Ivan");
+            // user.SayHello();
+
+            // Interfaces
+            ITaxCalculator calculator = new TaxCalculator2020();
+            var tax = calculator.CalculateTax();
+            Console.WriteLine($"Tax: {tax}");
         }
     }
 }
