@@ -6,10 +6,10 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Essential();
+            Essentials();
         }
 
-        static void Essential()
+        static void Essentials()
         {
             // Classes
             // var user = new User("Ivan");
@@ -20,15 +20,19 @@ namespace DesignPatterns
             // var tax = calculator.CalculateTax();
             // Console.WriteLine($"Tax: {tax}");
 
-            // Encapsulation
+            // First Principle of OOP -> Encapsulation
             // var account = new Account();
             // account.Deposit(10);
             // account.Withdraw(5);
             // Console.WriteLine($"Balance: {account.Balance}");
 
-            // Abstraction
-            var mailService = new MailService();
-            mailService.SendEmail();
+            // Second Principle of OOP -> Abstraction
+            // var mailService = new MailService();
+            // mailService.SendEmail();
+
+            // Third Principle of OOP -> Inheritance
+            var textBox = new TextBox();
+            textBox.Enable();
         }
     }
 }
