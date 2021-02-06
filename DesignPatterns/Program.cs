@@ -21,10 +21,14 @@ namespace DesignPatterns
             // Console.WriteLine($"Tax: {tax}");
 
             // Encapsulation
-            var account = new Account();
-            account.Deposit(10);
-            account.Withdraw(5);
-            Console.WriteLine($"Balance: {account.Balance}");
+            // var account = new Account();
+            // account.Deposit(10);
+            // account.Withdraw(5);
+            // Console.WriteLine($"Balance: {account.Balance}");
+
+            // Abstraction
+            var mailService = new MailService();
+            mailService.SendEmail();
         }
     }
 }
