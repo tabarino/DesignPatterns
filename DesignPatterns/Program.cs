@@ -1,5 +1,6 @@
 ﻿using System;
 using MementoPattern;
+using MementoExercise;
 
 namespace DesignPatterns
 {
@@ -11,7 +12,8 @@ namespace DesignPatterns
 
             // Problem:
             // Need to restore an object back to its previous state (e.g. "undo" or "rollback" operations).
-            MementoPattern.Demo.Show();
+            // MementoPattern.Demo.Show();
+            MementoExercise.Demo.Show();
         }
 
         static void Essentials()
