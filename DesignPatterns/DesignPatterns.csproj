@@ -4,6 +4,7 @@
     <ProjectReference Include="..\MementoPattern\MementoPattern.csproj" />
     <ProjectReference Include="..\MementoExercise\MementoExercise.csproj" />
     <ProjectReference Include="..\StatePattern\StatePattern.csproj" />
+    <ProjectReference Include="..\StateExercise\StateExercise.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

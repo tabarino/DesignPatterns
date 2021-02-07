@@ -2,6 +2,7 @@
 using MementoPattern;
 using MementoExercise;
 using StatePattern;
+using StateExercise;
 
 namespace DesignPatterns
 {
@@ -69,6 +70,7 @@ namespace DesignPatterns
             // Or, an application is characterized by large and numerous case statements that
             // vector flow of control based on the state of the application.
             StatePattern.Demo.Show();
+            StateExercise.Demo.Show();
         }
     }
 }
