@@ -1,6 +1,7 @@
 ﻿using System;
 using MementoPattern;
 using MementoExercise;
+using StatePattern;
 
 namespace DesignPatterns
 {
@@ -10,10 +11,9 @@ namespace DesignPatterns
         {
             // Essentials();
 
-            // Problem:
-            // Need to restore an object back to its previous state (e.g. "undo" or "rollback" operations).
-            // MementoPattern.Demo.Show();
-            MementoExercise.Demo.Show();
+            // Memento();
+            
+            State();
         }
 
         static void Essentials()
@@ -44,6 +44,31 @@ namespace DesignPatterns
             // Fourth Principle of OOP -> Polymorphism (Many Forms)
             _ = new DrawUIControl(new TextBox());
             _ = new DrawUIControl(new CheckBox());
+        }
+
+        static void Memento()
+        {
+            // Memento
+            // Also known as: Snapshot
+            // Memento is a behavioral design pattern that lets you save and restore the previous
+            // state of an object without revealing the details of its implementation.
+            // Problem:
+            // Need to restore an object back to its previous state (e.g. "undo" or "rollback" operations).
+            MementoPattern.Demo.Show();
+            MementoExercise.Demo.Show();
+        }
+
+        static void State()
+        {
+            // State
+            // State is a behavioral design pattern that lets an object alter its behavior 
+            // when its internal state changes. It appears as if the object changed its class.
+            // Problem:
+            // A monolithic object's behavior is a function of its state, 
+            // and it must change its behavior at run-time depending on that state. 
+            // Or, an application is characterized by large and numerous case statements that
+            // vector flow of control based on the state of the application.
+            StatePattern.Demo.Show();
         }
     }
 }
