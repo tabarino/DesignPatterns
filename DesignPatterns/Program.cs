@@ -3,6 +3,7 @@ using MementoPattern;
 using MementoExercise;
 using StatePattern;
 using StateExercise;
+using IteratorPattern;
 
 namespace DesignPatterns
 {
@@ -14,7 +15,9 @@ namespace DesignPatterns
 
             // Memento();
             
-            State();
+            // State();
+
+            Iterator();
         }
 
         static void Essentials()
@@ -71,6 +74,17 @@ namespace DesignPatterns
             // vector flow of control based on the state of the application.
             StatePattern.Demo.Show();
             StateExercise.Demo.Show();
+        }
+
+        static void Iterator()
+        {
+            // Iterator
+            // Iterator is a behavioral design pattern that lets you traverse elements of a collection
+            // without exposing its underlying representation (list, stack, tree, etc.).
+            // Problem:
+            // Need to "abstract" the traversal of wildly different data structures so that algorithms
+            // can be defined that are capable of interfacing with each transparently.
+            IteratorPattern.Demo.Show();
         }
     }
 }
