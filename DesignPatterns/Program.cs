@@ -4,6 +4,7 @@ using MementoExercise;
 using StatePattern;
 using StateExercise;
 using IteratorPattern;
+using IteratorPatternMadeSimple;
 
 namespace DesignPatterns
 {
@@ -84,7 +85,8 @@ namespace DesignPatterns
             // Problem:
             // Need to "abstract" the traversal of wildly different data structures so that algorithms
             // can be defined that are capable of interfacing with each transparently.
-            IteratorPattern.Demo.Show();
+            // IteratorPattern.Demo.Show();
+            IteratorPatternMadeSimple.Demo.Show();
         }
     }
 }

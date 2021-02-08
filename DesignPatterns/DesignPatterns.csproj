@@ -6,6 +6,7 @@
     <ProjectReference Include="..\StatePattern\StatePattern.csproj" />
     <ProjectReference Include="..\StateExercise\StateExercise.csproj" />
     <ProjectReference Include="..\IteratorPattern\IteratorPattern.csproj" />
+    <ProjectReference Include="..\IteratorPatternMadeSimple\IteratorPatternMadeSimple.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
