@@ -8,6 +8,7 @@ using IteratorPatternMadeSimple;
 using IteratorExercise;
 using StrategyPattern;
 using StrategyPatternWithDelegates;
+using StrategyExercise;
 
 namespace DesignPatterns
 {
@@ -90,8 +91,8 @@ namespace DesignPatterns
             // Problem:
             // Need to "abstract" the traversal of wildly different data structures so that algorithms
             // can be defined that are capable of interfacing with each transparently.
-            // IteratorPattern.Demo.Show();
-            // IteratorPatternMadeSimple.Demo.Show();
+            IteratorPattern.Demo.Show();
+            IteratorPatternMadeSimple.Demo.Show();
             IteratorExercise.Demo.Show();
         }
 
@@ -104,7 +105,8 @@ namespace DesignPatterns
             // One of the dominant strategies of object-oriented design is the "open-closed principle"
             // So, you need to program to an interface, not an implementation
             // StrategyPattern.Demo.Show();
-            StrategyPatternWithDelegates.Demo.Show();
+            // StrategyPatternWithDelegates.Demo.Show();
+            StrategyExercise.Demo.Show();
         }
     }
 }
