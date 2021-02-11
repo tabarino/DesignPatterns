@@ -6,6 +6,7 @@ using StateExercise;
 using IteratorPattern;
 using IteratorPatternMadeSimple;
 using IteratorExercise;
+using StrategyPattern;
 
 namespace DesignPatterns
 {
@@ -19,7 +20,9 @@ namespace DesignPatterns
             
             // State();
 
-            Iterator();
+            // Iterator();
+            
+            Strategy();
         }
 
         static void Essentials()
@@ -89,6 +92,17 @@ namespace DesignPatterns
             // IteratorPattern.Demo.Show();
             // IteratorPatternMadeSimple.Demo.Show();
             IteratorExercise.Demo.Show();
+        }
+
+        static void Strategy()
+        {
+            // Strategy
+            // Strategy is a behavioral design pattern that lets you define a family of algorithms,
+            // put each of them into a separate class, and make their objects interchangeable.
+            // Problem:
+            // One of the dominant strategies of object-oriented design is the "open-closed principle"
+            // So, you need to program to an interface, not an implementation
+            StrategyPattern.Demo.Show();
         }
     }
 }

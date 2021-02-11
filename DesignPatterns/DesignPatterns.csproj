@@ -8,6 +8,7 @@
     <ProjectReference Include="..\IteratorPattern\IteratorPattern.csproj" />
     <ProjectReference Include="..\IteratorPatternMadeSimple\IteratorPatternMadeSimple.csproj" />
     <ProjectReference Include="..\IteratorExercise\IteratorExercise.csproj" />
+    <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
