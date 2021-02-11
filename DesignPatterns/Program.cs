@@ -7,6 +7,7 @@ using IteratorPattern;
 using IteratorPatternMadeSimple;
 using IteratorExercise;
 using StrategyPattern;
+using StrategyPatternWithDelegates;
 
 namespace DesignPatterns
 {
@@ -102,7 +103,8 @@ namespace DesignPatterns
             // Problem:
             // One of the dominant strategies of object-oriented design is the "open-closed principle"
             // So, you need to program to an interface, not an implementation
-            StrategyPattern.Demo.Show();
+            // StrategyPattern.Demo.Show();
+            StrategyPatternWithDelegates.Demo.Show();
         }
     }
 }
