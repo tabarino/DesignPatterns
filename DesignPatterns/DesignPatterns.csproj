@@ -13,6 +13,7 @@
     <ProjectReference Include="..\StrategyExercise\StrategyExercise.csproj" />
     <ProjectReference Include="..\TemplatePattern\TemplatePattern.csproj" />
     <ProjectReference Include="..\TemplateExercise\TemplateExercise.csproj" />
+    <ProjectReference Include="..\CommandPattern\CommandPattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

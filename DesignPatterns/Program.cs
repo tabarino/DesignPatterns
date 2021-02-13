@@ -11,6 +11,7 @@ using StrategyPatternWithDelegates;
 using StrategyExercise;
 using TemplatePattern;
 using TemplateExercise;
+using CommandPattern;
 
 namespace DesignPatterns
 {
@@ -28,7 +29,9 @@ namespace DesignPatterns
             
             // Strategy();
 
-            Template();
+            // Template();
+
+            Command();
         }
 
         static void Essentials()
@@ -124,6 +127,19 @@ namespace DesignPatterns
             // duplicate effort must be expended.
             TemplatePattern.Demo.Show();
             TemplateExercise.Demo.Show();
+        }
+
+        static void Command()
+        {
+            // Command Pattern
+            // Also known as: Action, Transaction
+            // Command is a behavioral design pattern that turns a request into a stand-alone object
+            // that contains all information about the request. This transformation lets you parameterize
+            // methods with different requests, delay or queue a request’s execution, and support undoable operations.
+            // Problem:
+            // Need to issue requests to objects without knowing anything about
+            // the operation being requested or the receiver of the request.
+            CommandPattern.Demo.Show();
         }
     }
 }
