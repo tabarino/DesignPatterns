@@ -9,6 +9,7 @@ using IteratorExercise;
 using StrategyPattern;
 using StrategyPatternWithDelegates;
 using StrategyExercise;
+using TemplatePattern;
 
 namespace DesignPatterns
 {
@@ -24,7 +25,9 @@ namespace DesignPatterns
 
             // Iterator();
             
-            Strategy();
+            // Strategy();
+
+            Template();
         }
 
         static void Essentials()
@@ -104,9 +107,21 @@ namespace DesignPatterns
             // Problem:
             // One of the dominant strategies of object-oriented design is the "open-closed principle"
             // So, you need to program to an interface, not an implementation
-            // StrategyPattern.Demo.Show();
-            // StrategyPatternWithDelegates.Demo.Show();
+            StrategyPattern.Demo.Show();
+            StrategyPatternWithDelegates.Demo.Show();
             StrategyExercise.Demo.Show();
+        }
+
+        static void Template()
+        {
+            // Template Method
+            // Template Method is a behavioral design pattern that defines the skeleton of an algorithm in the
+            // superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+            // Problem:
+            // Two different components have significant similarities, but demonstrate no reuse of 
+            // common interface or implementation. If a change common to both components becomes necessary,
+            // duplicate effort must be expended.
+            TemplatePattern.Demo.Show();
         }
     }
 }

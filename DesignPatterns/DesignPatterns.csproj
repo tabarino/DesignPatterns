@@ -11,6 +11,7 @@
     <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj" />
     <ProjectReference Include="..\StrategyPatternWithDelegates\StrategyPatternWithDelegates.csproj" />
     <ProjectReference Include="..\StrategyExercise\StrategyExercise.csproj" />
+    <ProjectReference Include="..\TemplatePattern\TemplatePattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
