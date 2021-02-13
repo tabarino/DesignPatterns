@@ -10,6 +10,7 @@ using StrategyPattern;
 using StrategyPatternWithDelegates;
 using StrategyExercise;
 using TemplatePattern;
+using TemplateExercise;
 
 namespace DesignPatterns
 {
@@ -122,6 +123,7 @@ namespace DesignPatterns
             // common interface or implementation. If a change common to both components becomes necessary,
             // duplicate effort must be expended.
             TemplatePattern.Demo.Show();
+            TemplateExercise.Demo.Show();
         }
     }
 }
