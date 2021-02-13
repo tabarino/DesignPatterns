@@ -13,6 +13,7 @@ using TemplatePattern;
 using TemplateExercise;
 using CommandPattern;
 using CommandExercise;
+using ObserverPattern;
 
 namespace DesignPatterns
 {
@@ -23,16 +24,18 @@ namespace DesignPatterns
             // Essentials();
 
             // Memento();
-            
+
             // State();
 
             // Iterator();
-            
+
             // Strategy();
 
             // Template();
 
-            Command();
+            //Command();
+
+            Observer();
         }
 
         static void Essentials()
@@ -140,8 +143,19 @@ namespace DesignPatterns
             // Problem:
             // Need to issue requests to objects without knowing anything about
             // the operation being requested or the receiver of the request.
-            // CommandPattern.Demo.Show();
+            CommandPattern.Demo.Show();
             CommandExercise.Demo.Show();
+        }
+
+        static void Observer()
+        {
+            // Observer Pattern
+            // Also known as: Event-Subscriber, Listener
+            // Observer is a behavioral design pattern that lets you define a subscription mechanism
+            // to notify multiple objects about any events that happen to the object they’re observing.
+            // Problem:
+            // A large monolithic design does not scale well as new graphing or monitoring requirements are levied.
+            ObserverPattern.Demo.Show();
         }
     }
 }

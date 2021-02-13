@@ -15,6 +15,7 @@
     <ProjectReference Include="..\TemplateExercise\TemplateExercise.csproj" />
     <ProjectReference Include="..\CommandPattern\CommandPattern.csproj" />
     <ProjectReference Include="..\CommandExercise\CommandExercise.csproj" />
+    <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
