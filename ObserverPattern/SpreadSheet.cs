@@ -21,8 +21,8 @@ namespace ObserverPattern
 
         // Pull Style - It is more flexible, therefore is considered a better approach
         public void Update()
-            {
-                Console.WriteLine($"Spreadsheet got notified: {_dataSource.Value}");
-            }
+        {
+            Console.WriteLine($"Spreadsheet got notified: {_dataSource.Value}");
         }
+    }
 }
