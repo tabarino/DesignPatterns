@@ -15,6 +15,7 @@ using CommandPattern;
 using CommandExercise;
 using ObserverPattern;
 using ObserverPatternUsingEventsAndDelegates;
+using ObserverExercise;
 
 namespace DesignPatterns
 {
@@ -156,8 +157,9 @@ namespace DesignPatterns
             // to notify multiple objects about any events that happen to the object they’re observing.
             // Problem:
             // A large monolithic design does not scale well as new graphing or monitoring requirements are levied.
-            //ObserverPattern.Demo.Show();
+            ObserverPattern.Demo.Show();
             ObserverPatternUsingEventsAndDelegates.Demo.Show();
+            ObserverExercise.Demo.Show();
         }
     }
 }
