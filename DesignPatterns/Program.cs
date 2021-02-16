@@ -16,6 +16,7 @@ using CommandExercise;
 using ObserverPattern;
 using ObserverPatternUsingEventsAndDelegates;
 using ObserverExercise;
+using MediatorPattern;
 
 namespace DesignPatterns
 {
@@ -37,7 +38,9 @@ namespace DesignPatterns
 
             //Command();
 
-            Observer();
+            // Observer();
+
+            Mediator();
         }
 
         static void Essentials()
@@ -160,6 +163,20 @@ namespace DesignPatterns
             ObserverPattern.Demo.Show();
             ObserverPatternUsingEventsAndDelegates.Demo.Show();
             ObserverExercise.Demo.Show();
+        }
+
+        static void Mediator()
+        {
+            // Mediator Pattern
+            // Also known as: Intermediary, Controller
+            // Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects.
+            // The pattern restricts direct communications between the objects and forces them
+            // to collaborate only via a mediator object.
+            // Problem:
+            // We want to design reusable components, but dependencies between the potentially reusable pieces
+            // demonstrates the "spaghetti code" phenomenon
+            // (trying to scoop a single serving results in an "all or nothing clump").
+            MediatorPattern.Demo.Show();
         }
     }
 }
