@@ -17,6 +17,7 @@ using ObserverPattern;
 using ObserverPatternUsingEventsAndDelegates;
 using ObserverExercise;
 using MediatorPattern;
+using MediatorPatternUsingObservers;
 
 namespace DesignPatterns
 {
@@ -24,6 +25,15 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+            BehavioralPatterns();
+        }
+
+        static void BehavioralPatterns()
+        {
+            // In software engineering, behavioral design patterns are design patterns
+            // that identify common communication patterns between objects and realize these patterns.
+            // By doing so, these patterns increase flexibility in carrying out this communication.
+
             // Essentials();
 
             // Memento();
@@ -176,7 +186,8 @@ namespace DesignPatterns
             // We want to design reusable components, but dependencies between the potentially reusable pieces
             // demonstrates the "spaghetti code" phenomenon
             // (trying to scoop a single serving results in an "all or nothing clump").
-            MediatorPattern.Demo.Show();
+            // MediatorPattern.Demo.Show();
+            MediatorPatternUsingObservers.Demo.Show();
         }
     }
 }
