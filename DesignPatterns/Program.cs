@@ -18,6 +18,7 @@ using ObserverPatternUsingEventsAndDelegates;
 using ObserverExercise;
 using MediatorPattern;
 using MediatorPatternUsingObservers;
+using MediatorPatternUsingEventsAndDelegates;
 
 namespace DesignPatterns
 {
@@ -25,32 +26,9 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            BehavioralPatterns();
-        }
-
-        static void BehavioralPatterns()
-        {
-            // In software engineering, behavioral design patterns are design patterns
-            // that identify common communication patterns between objects and realize these patterns.
-            // By doing so, these patterns increase flexibility in carrying out this communication.
-
             // Essentials();
 
-            // Memento();
-
-            // State();
-
-            // Iterator();
-
-            // Strategy();
-
-            // Template();
-
-            //Command();
-
-            // Observer();
-
-            Mediator();
+            BehavioralPatterns();
         }
 
         static void Essentials()
@@ -81,6 +59,29 @@ namespace DesignPatterns
             // Fourth Principle of OOP -> Polymorphism (Many Forms)
             _ = new DrawUIControl(new TextBox());
             _ = new DrawUIControl(new CheckBox());
+        }
+
+        static void BehavioralPatterns()
+        {
+            // In software engineering, behavioral design patterns are design patterns
+            // that identify common communication patterns between objects and realize these patterns.
+            // By doing so, these patterns increase flexibility in carrying out this communication.
+
+            // Memento();
+
+            // State();
+
+            // Iterator();
+
+            // Strategy();
+
+            // Template();
+
+            // Command();
+
+            // Observer();
+
+            Mediator();
         }
 
         static void Memento()
@@ -187,7 +188,8 @@ namespace DesignPatterns
             // demonstrates the "spaghetti code" phenomenon
             // (trying to scoop a single serving results in an "all or nothing clump").
             // MediatorPattern.Demo.Show();
-            MediatorPatternUsingObservers.Demo.Show();
+            // MediatorPatternUsingObservers.Demo.Show();
+            MediatorPatternUsingEventsAndDelegates.Demo.Show();
         }
     }
 }
