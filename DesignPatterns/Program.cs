@@ -19,6 +19,7 @@ using ObserverExercise;
 using MediatorPattern;
 using MediatorPatternUsingObservers;
 using MediatorPatternUsingEventsAndDelegates;
+using MediatorExercise;
 
 namespace DesignPatterns
 {
@@ -187,9 +188,10 @@ namespace DesignPatterns
             // We want to design reusable components, but dependencies between the potentially reusable pieces
             // demonstrates the "spaghetti code" phenomenon
             // (trying to scoop a single serving results in an "all or nothing clump").
-            // MediatorPattern.Demo.Show();
-            // MediatorPatternUsingObservers.Demo.Show();
+            MediatorPattern.Demo.Show();
+            MediatorPatternUsingObservers.Demo.Show();
             MediatorPatternUsingEventsAndDelegates.Demo.Show();
+            MediatorExercise.Demo.Show();
         }
     }
 }

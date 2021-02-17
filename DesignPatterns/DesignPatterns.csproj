@@ -21,6 +21,7 @@
     <ProjectReference Include="..\MediatorPattern\MediatorPattern.csproj" />
     <ProjectReference Include="..\MediatorPatternUsingObservers\MediatorPatternUsingObservers.csproj" />
     <ProjectReference Include="..\MediatorPatternUsingEventsAndDelegates\MediatorPatternUsingEventsAndDelegates.csproj" />
+    <ProjectReference Include="..\MediatorExercise\MediatorExercise.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
