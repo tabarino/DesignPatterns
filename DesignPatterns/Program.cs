@@ -1,25 +1,4 @@
 ﻿using System;
-using MementoPattern;
-using MementoExercise;
-using StatePattern;
-using StateExercise;
-using IteratorPattern;
-using IteratorPatternMadeSimple;
-using IteratorExercise;
-using StrategyPattern;
-using StrategyPatternWithDelegates;
-using StrategyExercise;
-using TemplatePattern;
-using TemplateExercise;
-using CommandPattern;
-using CommandExercise;
-using ObserverPattern;
-using ObserverPatternUsingEventsAndDelegates;
-using ObserverExercise;
-using MediatorPattern;
-using MediatorPatternUsingObservers;
-using MediatorPatternUsingEventsAndDelegates;
-using MediatorExercise;
 
 namespace DesignPatterns
 {
@@ -82,7 +61,9 @@ namespace DesignPatterns
 
             // Observer();
 
-            Mediator();
+            // Mediator();
+
+            ChainOfResponsibility();
         }
 
         static void Memento()
@@ -192,6 +173,20 @@ namespace DesignPatterns
             MediatorPatternUsingObservers.Demo.Show();
             MediatorPatternUsingEventsAndDelegates.Demo.Show();
             MediatorExercise.Demo.Show();
+        }
+
+        static void ChainOfResponsibility()
+        {
+            // Chain of Responsibility Pattern;
+            // Also known as: CoR, Chain of Command
+            // Chain of Responsibility is a behavioral design pattern that lets you pass requests along
+            // a chain of handlers. Upon receiving a request, each handler decides either to process the request
+            // or to pass it to the next handler in the chain.
+            // Problem:
+            // There is a potentially variable number of "handler" or "processing element" or "node" objects,
+            // and a stream of requests that must be handled. Need to efficiently process the requests
+            // without hard-wiring handler relationships and precedence, or request-to-handler mappings.
+            ChainOfResponsibilityPattern.Demo.Show();
         }
     }
 }
