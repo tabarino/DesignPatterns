@@ -186,7 +186,8 @@ namespace DesignPatterns
             // There is a potentially variable number of "handler" or "processing element" or "node" objects,
             // and a stream of requests that must be handled. Need to efficiently process the requests
             // without hard-wiring handler relationships and precedence, or request-to-handler mappings.
-            ChainOfResponsibilityPattern.Demo.Show();
+            // ChainOfResponsibilityPattern.Demo.Show();
+            ChainOfResponsibilityExercise.Demo.Show();
         }
     }
 }
