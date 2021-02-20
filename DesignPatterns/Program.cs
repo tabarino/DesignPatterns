@@ -63,7 +63,9 @@ namespace DesignPatterns
 
             // Mediator();
 
-            ChainOfResponsibility();
+            // ChainOfResponsibility();
+
+            Visitor();
         }
 
         static void Memento()
@@ -177,7 +179,7 @@ namespace DesignPatterns
 
         static void ChainOfResponsibility()
         {
-            // Chain of Responsibility Pattern;
+            // Chain of Responsibility Pattern
             // Also known as: CoR, Chain of Command
             // Chain of Responsibility is a behavioral design pattern that lets you pass requests along
             // a chain of handlers. Upon receiving a request, each handler decides either to process the request
@@ -186,8 +188,21 @@ namespace DesignPatterns
             // There is a potentially variable number of "handler" or "processing element" or "node" objects,
             // and a stream of requests that must be handled. Need to efficiently process the requests
             // without hard-wiring handler relationships and precedence, or request-to-handler mappings.
-            // ChainOfResponsibilityPattern.Demo.Show();
+            ChainOfResponsibilityPattern.Demo.Show();
             ChainOfResponsibilityExercise.Demo.Show();
+        }
+
+        static void Visitor()
+        {
+            // Visitor Pattern
+            // Visitor is a behavioral design pattern that lets you separate algorithms
+            // from the objects on which they operate.
+            // Problem:
+            // Many distinct and unrelated operations need to be performed on node objects in a heterogeneous
+            // aggregate structure. You want to avoid "polluting" the node classes with these operations.
+            // And, you don't want to have to query the type of each node and cast the pointer to the correct type
+            // before performing the desired operation.
+            VisitorPattern.Demo.Show();
         }
     }
 }

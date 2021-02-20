@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityExercise", "ChainOfResponsibilityExercise\ChainOfResponsibilityExercise.csproj", "{E295E139-52E0-4839-A0C7-D83B382BABE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -352,5 +354,17 @@ Global
 		{E295E139-52E0-4839-A0C7-D83B382BABE0}.Release|x64.Build.0 = Release|Any CPU
 		{E295E139-52E0-4839-A0C7-D83B382BABE0}.Release|x86.ActiveCfg = Release|Any CPU
 		{E295E139-52E0-4839-A0C7-D83B382BABE0}.Release|x86.Build.0 = Release|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Debug|x64.Build.0 = Debug|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|x64.ActiveCfg = Release|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|x64.Build.0 = Release|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
