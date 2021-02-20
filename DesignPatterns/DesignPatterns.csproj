@@ -25,6 +25,7 @@
     <ProjectReference Include="..\ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj" />
     <ProjectReference Include="..\ChainOfResponsibilityExercise\ChainOfResponsibilityExercise.csproj" />
     <ProjectReference Include="..\VisitorPattern\VisitorPattern.csproj" />
+    <ProjectReference Include="..\VisitorExercise\VisitorExercise.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

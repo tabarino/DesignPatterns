@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityExerci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorExercise", "VisitorExercise\VisitorExercise.csproj", "{1C2F5851-E831-496A-87B5-9FDD587E6619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -366,5 +368,17 @@ Global
 		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|x64.Build.0 = Release|Any CPU
 		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|x86.ActiveCfg = Release|Any CPU
 		{FA3B9FC4-6AD7-43FC-80AE-493B2752083E}.Release|x86.Build.0 = Release|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Debug|x64.Build.0 = Debug|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Debug|x86.Build.0 = Debug|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Release|x64.ActiveCfg = Release|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Release|x64.Build.0 = Release|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Release|x86.ActiveCfg = Release|Any CPU
+		{1C2F5851-E831-496A-87B5-9FDD587E6619}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

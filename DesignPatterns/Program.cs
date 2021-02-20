@@ -203,6 +203,7 @@ namespace DesignPatterns
             // And, you don't want to have to query the type of each node and cast the pointer to the correct type
             // before performing the desired operation.
             VisitorPattern.Demo.Show();
+            VisitorExercise.Demo.Show();
         }
     }
 }
