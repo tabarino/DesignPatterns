@@ -8,7 +8,9 @@ namespace DesignPatterns
         {
             // Essentials();
 
-            BehavioralPatterns();
+            // BehavioralPatterns();
+
+            StructuralPatterns();
         }
 
         static void Essentials()
@@ -68,9 +70,17 @@ namespace DesignPatterns
             Visitor();
         }
 
+        static void StructuralPatterns()
+        {
+            // In Software Engineering, Structural Design Patterns are Design Patterns
+            // that ease the design by identifying a simple way to realize relationships between entities.
+
+            Composite();
+        }
+
         static void Memento()
         {
-            // Memento
+            // Memento: Allows restoring an object to a previous state.
             // Also known as: Snapshot
             // Memento is a behavioral design pattern that lets you save and restore the previous
             // state of an object without revealing the details of its implementation.
@@ -82,7 +92,7 @@ namespace DesignPatterns
 
         static void State()
         {
-            // State
+            // State: Allows an object to behave differently depending on the state it is in.
             // State is a behavioral design pattern that lets an object alter its behavior 
             // when its internal state changes. It appears as if the object changed its class.
             // Problem:
@@ -96,7 +106,8 @@ namespace DesignPatterns
 
         static void Iterator()
         {
-            // Iterator
+            // Iterator: Allows iterating over an object without having to expose
+            // the object’s internal structure (which may change in the future).
             // Iterator is a behavioral design pattern that lets you traverse elements of a collection
             // without exposing its underlying representation (list, stack, tree, etc.).
             // Problem:
@@ -109,7 +120,7 @@ namespace DesignPatterns
 
         static void Strategy()
         {
-            // Strategy
+            // Strategy: Allows passing different algorithms (behaviours) to an object.
             // Strategy is a behavioral design pattern that lets you define a family of algorithms,
             // put each of them into a separate class, and make their objects interchangeable.
             // Problem:
@@ -122,7 +133,8 @@ namespace DesignPatterns
 
         static void Template()
         {
-            // Template Method
+            // Template Method: Allows defining a template (skeleton) for an operation.
+            // Specific steps will then be implemented in subclasses.
             // Template Method is a behavioral design pattern that defines the skeleton of an algorithm in the
             // superclass but lets subclasses override specific steps of the algorithm without changing its structure.
             // Problem:
@@ -135,7 +147,8 @@ namespace DesignPatterns
 
         static void Command()
         {
-            // Command Pattern
+            // Command: Allows decouple a sender from a receiver.
+            // The sender will talk to the receive through a command. Commands can be undone and persisted.
             // Also known as: Action, Transaction
             // Command is a behavioral design pattern that turns a request into a stand-alone object
             // that contains all information about the request. This transformation lets you parameterize
@@ -149,7 +162,7 @@ namespace DesignPatterns
 
         static void Observer()
         {
-            // Observer Pattern
+            // Observer: Allows an object notify other objects when its state changes.
             // Also known as: Event-Subscriber, Listener
             // Observer is a behavioral design pattern that lets you define a subscription mechanism
             // to notify multiple objects about any events that happen to the object they’re observing.
@@ -162,7 +175,7 @@ namespace DesignPatterns
 
         static void Mediator()
         {
-            // Mediator Pattern
+            // Mediator: Allows an object to encapsulate the communication between other objects.
             // Also known as: Intermediary, Controller
             // Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects.
             // The pattern restricts direct communications between the objects and forces them
@@ -179,7 +192,7 @@ namespace DesignPatterns
 
         static void ChainOfResponsibility()
         {
-            // Chain of Responsibility Pattern
+            // Chain of Responsibility: Allows building a chain of objects to process a request.
             // Also known as: CoR, Chain of Command
             // Chain of Responsibility is a behavioral design pattern that lets you pass requests along
             // a chain of handlers. Upon receiving a request, each handler decides either to process the request
@@ -194,7 +207,7 @@ namespace DesignPatterns
 
         static void Visitor()
         {
-            // Visitor Pattern
+            // Visitor: Allows adding new operations to an object structure without modifying it.
             // Visitor is a behavioral design pattern that lets you separate algorithms
             // from the objects on which they operate.
             // Problem:
@@ -204,6 +217,20 @@ namespace DesignPatterns
             // before performing the desired operation.
             VisitorPattern.Demo.Show();
             VisitorExercise.Demo.Show();
+        }
+
+        static void Composite()
+        {
+            // Composite: Represents object hierarchies where individual objects and
+            // compositions of objects are treated the same way.
+            // Also known as: Object Tree
+            // Composite is a structural design pattern that lets you compose objects into tree structures
+            // and then work with these structures as if they were individual objects.
+            // Problem:
+            // Application needs to manipulate a hierarchical collection of "primitive" and "composite" objects.
+            // Processing of a primitive object is handled one way, and processing of a composite objects handled
+            // differently. Having to query the "type" of each object before attempting to process it is not desirable.
+            CompositePattern.Demo.Show();
         }
     }
 }
