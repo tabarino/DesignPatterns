@@ -75,7 +75,9 @@ namespace DesignPatterns
             // In Software Engineering, Structural Design Patterns are Design Patterns
             // that ease the design by identifying a simple way to realize relationships between entities.
 
-            Composite();
+            // Composite();
+
+            Adapter();
         }
 
         static void Memento()
@@ -230,8 +232,20 @@ namespace DesignPatterns
             // Application needs to manipulate a hierarchical collection of "primitive" and "composite" objects.
             // Processing of a primitive object is handled one way, and processing of a composite objects handled
             // differently. Having to query the "type" of each object before attempting to process it is not desirable.
-            // CompositePattern.Demo.Show();
+            CompositePattern.Demo.Show();
             CompositeExercise.Demo.Show();
+        }
+
+        static void Adapter()
+        {
+            // Adapter: Allows converting the interface of a class into another interface that clients expect.
+            // Also known as: Wrapper
+            // Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+            // Problem:
+            // An "off the shelf" component offers compelling functionality that you would like to reuse,
+            // but its "view of the world" is not compatible with the philosophy and architecture
+            // of the system currently being developed.
+            AdapterPattern.Demo.Show();
         }
     }
 }
