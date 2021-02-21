@@ -245,7 +245,8 @@ namespace DesignPatterns
             // An "off the shelf" component offers compelling functionality that you would like to reuse,
             // but its "view of the world" is not compatible with the philosophy and architecture
             // of the system currently being developed.
-            AdapterPattern.Demo.Show();
+            // AdapterPattern.Demo.Show();
+            AdapterExercise.Demo.Show();
         }
     }
 }

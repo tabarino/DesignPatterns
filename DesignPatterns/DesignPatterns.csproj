@@ -29,6 +29,7 @@
     <ProjectReference Include="..\CompositePattern\CompositePattern.csproj" />
     <ProjectReference Include="..\CompositeExercise\CompositeExercise.csproj" />
     <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj" />
+    <ProjectReference Include="..\AdapterExercise\AdapterExercise.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
