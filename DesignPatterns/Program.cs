@@ -77,7 +77,9 @@ namespace DesignPatterns
 
             // Composite();
 
-            Adapter();
+            // Adapter();
+
+            Decorator();
         }
 
         static void Memento()
@@ -245,8 +247,20 @@ namespace DesignPatterns
             // An "off the shelf" component offers compelling functionality that you would like to reuse,
             // but its "view of the world" is not compatible with the philosophy and architecture
             // of the system currently being developed.
-            // AdapterPattern.Demo.Show();
+            AdapterPattern.Demo.Show();
             AdapterExercise.Demo.Show();
+        }
+
+        static void Decorator()
+        {
+            // Decorator: Adds additional behavior to an object dynamically
+            // Also known as: Wrapper
+            // Decorator is a structural design pattern that lets you attach new behaviors to objects by placing
+            // these objects inside special wrapper objects that contain the behaviors.
+            // Problem:
+            // You want to add behavior or state to individual objects at run-time.
+            // Inheritance is not feasible because it is static and applies to an entire class.
+            DecoratorPattern.Demo.Show();
         }
     }
 }
