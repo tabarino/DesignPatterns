@@ -260,7 +260,8 @@ namespace DesignPatterns
             // Problem:
             // You want to add behavior or state to individual objects at run-time.
             // Inheritance is not feasible because it is static and applies to an entire class.
-            DecoratorPattern.Demo.Show();
+            //DecoratorPattern.Demo.Show();
+            DecoratorExercise.Demo.Show();
         }
     }
 }
