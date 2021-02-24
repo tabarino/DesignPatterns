@@ -275,7 +275,8 @@ namespace DesignPatterns
             // Problem:
             // A segment of the client community needs a simplified interface to the overall
             // functionality of a complex subsystem.
-            FacadePattern.Demo.Show();
+            //FacadePattern.Demo.Show();
+            FacadeExercise.Demo.Show();
         }
     }
 }
