@@ -32,6 +32,7 @@
     <ProjectReference Include="..\AdapterExercise\AdapterExercise.csproj" />
     <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj" />
     <ProjectReference Include="..\DecoratorExercise\DecoratorExercise.csproj" />
+    <ProjectReference Include="..\FacadePattern\FacadePattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

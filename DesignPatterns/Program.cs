@@ -79,7 +79,9 @@ namespace DesignPatterns
 
             // Adapter();
 
-            Decorator();
+            // Decorator();
+
+            Facade();
         }
 
         static void Memento()
@@ -260,8 +262,20 @@ namespace DesignPatterns
             // Problem:
             // You want to add behavior or state to individual objects at run-time.
             // Inheritance is not feasible because it is static and applies to an entire class.
-            //DecoratorPattern.Demo.Show();
+            DecoratorPattern.Demo.Show();
             DecoratorExercise.Demo.Show();
+        }
+
+        static void Facade()
+        {
+            // Facade: Provides a simplified, higher-level interface to a subsystem.
+            // Clients can talk to the facade rather than individual classes in the subsystem.
+            // Facade is a structural design pattern that provides a simplified interface to a library,
+            // a framework, or any other complex set of classes.
+            // Problem:
+            // A segment of the client community needs a simplified interface to the overall
+            // functionality of a complex subsystem.
+            FacadePattern.Demo.Show();
         }
     }
 }
