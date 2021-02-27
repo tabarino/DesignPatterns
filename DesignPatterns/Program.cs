@@ -291,7 +291,8 @@ namespace DesignPatterns
             // Problem:
             // Designing objects down to the lowest levels of system "granularity" provides optimal flexibility,
             // but can be unacceptably expensive in terms of performance and memory usage.
-            FlyweightPattern.Demo.Show();
+            //FlyweightPattern.Demo.Show();
+            FlyweightExercise.Demo.Show();
         }
     }
 }
