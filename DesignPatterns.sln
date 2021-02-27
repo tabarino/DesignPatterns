@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeExercise", "FacadeExercise\FacadeExercise.csproj", "{620CB2E8-9670-4DEB-9DA4-8C3339622A00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -492,5 +494,17 @@ Global
 		{620CB2E8-9670-4DEB-9DA4-8C3339622A00}.Release|x64.Build.0 = Release|Any CPU
 		{620CB2E8-9670-4DEB-9DA4-8C3339622A00}.Release|x86.ActiveCfg = Release|Any CPU
 		{620CB2E8-9670-4DEB-9DA4-8C3339622A00}.Release|x86.Build.0 = Release|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Debug|x64.Build.0 = Debug|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Debug|x86.Build.0 = Debug|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Release|x64.ActiveCfg = Release|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Release|x64.Build.0 = Release|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5B1CD72-FCBF-4E34-B7ED-89469C8870BA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

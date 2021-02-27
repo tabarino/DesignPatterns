@@ -81,7 +81,9 @@ namespace DesignPatterns
 
             // Decorator();
 
-            Facade();
+            // Facade();
+
+            Flyweight();
         }
 
         static void Memento()
@@ -275,8 +277,21 @@ namespace DesignPatterns
             // Problem:
             // A segment of the client community needs a simplified interface to the overall
             // functionality of a complex subsystem.
-            //FacadePattern.Demo.Show();
+            FacadePattern.Demo.Show();
             FacadeExercise.Demo.Show();
+        }
+
+        static void Flyweight()
+        {
+            // Flyweight: Allows sharing common state between multiple objects.
+            // Also known as: Cache
+            // Flyweight is a structural design pattern that lets you fit more objects
+            // into the available amount of RAM by sharing common parts of state between
+            // multiple objects instead of keeping all of the data in each object.
+            // Problem:
+            // Designing objects down to the lowest levels of system "granularity" provides optimal flexibility,
+            // but can be unacceptably expensive in terms of performance and memory usage.
+            FlyweightPattern.Demo.Show();
         }
     }
 }
