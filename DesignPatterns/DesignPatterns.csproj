@@ -37,6 +37,7 @@
     <ProjectReference Include="..\FlyweightPattern\FlyweightPattern.csproj" />
     <ProjectReference Include="..\FlyweightExercise\FlyweightExercise.csproj" />
     <ProjectReference Include="..\BridgePattern\BridgePattern.csproj" />
+    <ProjectReference Include="..\ProxyPattern\ProxyPattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
