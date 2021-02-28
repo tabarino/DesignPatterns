@@ -322,7 +322,8 @@ namespace DesignPatterns
             // Problem:
             // You need to support resource-hungry objects, and you do not want to instantiate such objects
             // unless and until they are actually requested by the client.
-            ProxyPattern.Demo.Show();
+            // ProxyPattern.Demo.Show();
+            ProxyExercise.Demo.Show();
         }
     }
 }

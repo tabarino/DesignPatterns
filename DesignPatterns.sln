@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{62F0FEC9-8C42-422F-86CD-0C8DCEF7453B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyExercise", "ProxyExercise\ProxyExercise.csproj", "{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -548,5 +550,17 @@ Global
 		{62F0FEC9-8C42-422F-86CD-0C8DCEF7453B}.Release|x64.Build.0 = Release|Any CPU
 		{62F0FEC9-8C42-422F-86CD-0C8DCEF7453B}.Release|x86.ActiveCfg = Release|Any CPU
 		{62F0FEC9-8C42-422F-86CD-0C8DCEF7453B}.Release|x86.Build.0 = Release|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Release|x64.Build.0 = Release|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA04D303-BEBC-40D9-9A78-52C2C432F6BA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
