@@ -10,7 +10,9 @@ namespace DesignPatterns
 
             // BehavioralPatterns();
 
-            StructuralPatterns();
+            // StructuralPatterns();
+
+            CreationalPatterns();
         }
 
         static void Essentials()
@@ -45,6 +47,8 @@ namespace DesignPatterns
 
         static void BehavioralPatterns()
         {
+            // Behavioral patterns take care of effective communication and
+            // the assignment of responsibilities between objects.
             // In software engineering, behavioral design patterns are design patterns
             // that identify common communication patterns between objects and realize these patterns.
             // By doing so, these patterns increase flexibility in carrying out this communication.
@@ -72,6 +76,8 @@ namespace DesignPatterns
 
         static void StructuralPatterns()
         {
+            // Structural patterns explain how to assemble objects and classes into larger structures,
+            // while keeping the structures flexible and efficient.
             // In Software Engineering, Structural Design Patterns are Design Patterns
             // that ease the design by identifying a simple way to realize relationships between entities.
 
@@ -88,6 +94,18 @@ namespace DesignPatterns
             // Bridge();
 
             Proxy();
+        }
+
+        static void CreationalPatterns()
+        {
+            // Creational patterns provide object creation mechanisms that increase
+            // flexibility and reuse of existing code.
+            // In software engineering, creational design patterns are design patterns that deal with
+            // object creation mechanisms, trying to create objects in a manner suitable to the situation.
+            // The basic form of object creation could result in design problems or added complexity to the design.
+            // Creational design patterns solve this problem by somehow controlling this object creation.
+
+            FactoryMethod();
         }
 
         static void Memento()
@@ -324,6 +342,17 @@ namespace DesignPatterns
             // unless and until they are actually requested by the client.
             // ProxyPattern.Demo.Show();
             ProxyExercise.Demo.Show();
+        }
+
+        static void FactoryMethod()
+        {
+            // Factory Method is a creational design pattern that provides an interface for creating objects
+            // in a superclass, but allows subclasses to alter the type of objects that will be created.
+            // Also known as: Virtual Constructor
+            // Problem:
+            // A framework needs to standardize the architectural model for a range of applications, but allow
+            // for individual applications to define their own domain objects and provide for their instantiation.
+            FactoryMethodPattern.Demo.Show();
         }
     }
 }

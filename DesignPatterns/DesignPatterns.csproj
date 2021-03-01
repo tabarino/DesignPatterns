@@ -39,6 +39,7 @@
     <ProjectReference Include="..\BridgePattern\BridgePattern.csproj" />
     <ProjectReference Include="..\ProxyPattern\ProxyPattern.csproj" />
     <ProjectReference Include="..\ProxyExercise\ProxyExercise.csproj" />
+    <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
