@@ -107,7 +107,9 @@ namespace DesignPatterns
 
             // FactoryMethod();
 
-            AbstractFactory();
+            // AbstractFactory();
+
+            Builder();
         }
 
         static void Memento()
@@ -367,6 +369,18 @@ namespace DesignPatterns
             // Too often, this encapsulation is not engineered in advance, and lots of #ifdef case statements
             // with options for all currently supported platforms begin to procreate like rabbits throughout the code.
             AbstractFactoryPattern.Demo.Show();
+        }
+
+        static void Builder()
+        {
+            // Builder is a creational design pattern that lets you construct complex objects step by step.
+            // The pattern allows you to produce different types and representations
+            // of an object using the same construction code.
+            // Problem:
+            // An application needs to create the elements of a complex aggregate.
+            // The specification for the aggregate exists on secondary storage and
+            // one of many representations needs to be built in primary storage.
+            BuilderPattern.Demo.Show();
         }
     }
 }
