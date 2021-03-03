@@ -105,7 +105,9 @@ namespace DesignPatterns
             // The basic form of object creation could result in design problems or added complexity to the design.
             // Creational design patterns solve this problem by somehow controlling this object creation.
 
-            FactoryMethod();
+            // FactoryMethod();
+
+            AbstractFactory();
         }
 
         static void Memento()
@@ -353,6 +355,18 @@ namespace DesignPatterns
             // A framework needs to standardize the architectural model for a range of applications, but allow
             // for individual applications to define their own domain objects and provide for their instantiation.
             FactoryMethodPattern.Demo.Show();
+        }
+
+        static void AbstractFactory()
+        {
+            // Abstract Factory is a creational design pattern that lets you produce families of 
+            // related objects without specifying their concrete classes.
+            // Problem:
+            // If an application is to be portable, it needs to encapsulate platform dependencies.
+            // These "platforms" might include: windowing system, operating system, database, etc.
+            // Too often, this encapsulation is not engineered in advance, and lots of #ifdef case statements
+            // with options for all currently supported platforms begin to procreate like rabbits throughout the code.
+            AbstractFactoryPattern.Demo.Show();
         }
     }
 }
