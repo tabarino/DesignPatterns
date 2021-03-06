@@ -8,11 +8,11 @@ namespace DesignPatterns
         {
             // Essentials();
 
-            // BehavioralPatterns();
+            BehavioralPatterns();
 
             // StructuralPatterns();
 
-            CreationalPatterns();
+            // CreationalPatterns();
         }
 
         static void Essentials()
@@ -71,7 +71,9 @@ namespace DesignPatterns
 
             // ChainOfResponsibility();
 
-            Visitor();
+            // Visitor();
+
+            Interpreter();
         }
 
         static void StructuralPatterns()
@@ -109,7 +111,7 @@ namespace DesignPatterns
 
             // AbstractFactory();
 
-            Builder();
+            // Builder();
         }
 
         static void Memento()
@@ -251,6 +253,21 @@ namespace DesignPatterns
             // before performing the desired operation.
             VisitorPattern.Demo.Show();
             VisitorExercise.Demo.Show();
+        }
+
+        static void Interpreter()
+        {
+            // Interpreter: In the interpreter pattern you define a language, parse requests in that language,
+            // and assign the appropriate class(es), method(s), etc to handle each request.
+            // Given a language, define a representation for its grammar along with an interpreter 
+            // that uses the representation to interpret sentences in the language.
+            // Map a domain to a language, the language to a grammar, and the grammar
+            // to a hierarchical object-oriented design.
+            // Problem:
+            // A class of problems occurs repeatedly in a well-defined and well-understood domain.
+            // If the domain were characterized with a "language", then problems could be easily
+            // solved with an interpretation "engine".
+            InterpreterPattern.Demo.Show();
         }
 
         static void Composite()

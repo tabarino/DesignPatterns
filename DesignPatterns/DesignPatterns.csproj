@@ -42,6 +42,7 @@
     <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj" />
     <ProjectReference Include="..\AbstractFactoryPattern\AbstractFactoryPattern.csproj" />
     <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\InterpreterPattern\InterpreterPattern.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
