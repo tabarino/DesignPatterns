@@ -44,6 +44,7 @@
     <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
     <ProjectReference Include="..\InterpreterPattern\InterpreterPattern.csproj" />
     <ProjectReference Include="..\PrototypePattern\PrototypePattern.csproj" />
+    <ProjectReference Include="..\PrototypePatternWithICloneable\PrototypePatternWithICloneable.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

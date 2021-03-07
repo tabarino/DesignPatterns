@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{13F773FA-AAE4-4312-B543-CDF0A4358CD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePatternWithICloneable", "PrototypePatternWithICloneable\PrototypePatternWithICloneable.csproj", "{583A84BC-08A2-4FA1-901B-444FA5D89792}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -632,5 +634,17 @@ Global
 		{13F773FA-AAE4-4312-B543-CDF0A4358CD9}.Release|x64.Build.0 = Release|Any CPU
 		{13F773FA-AAE4-4312-B543-CDF0A4358CD9}.Release|x86.ActiveCfg = Release|Any CPU
 		{13F773FA-AAE4-4312-B543-CDF0A4358CD9}.Release|x86.Build.0 = Release|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Debug|x64.Build.0 = Debug|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Debug|x86.Build.0 = Debug|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Release|x64.ActiveCfg = Release|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Release|x64.Build.0 = Release|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Release|x86.ActiveCfg = Release|Any CPU
+		{583A84BC-08A2-4FA1-901B-444FA5D89792}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

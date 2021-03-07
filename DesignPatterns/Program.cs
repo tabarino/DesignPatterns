@@ -409,7 +409,8 @@ namespace DesignPatterns
             // Also known as: Clone
             // Problem:
             // Application "hard wires" the class of object to create in each "new" expression.
-            PrototypePattern.Demo.Show();
+            // PrototypePattern.Demo.Show();
+            PrototypePatternWithICloneable.Demo.Show();
         }
     }
 }
