@@ -8,11 +8,11 @@ namespace DesignPatterns
         {
             // Essentials();
 
-            BehavioralPatterns();
+            // BehavioralPatterns();
 
             // StructuralPatterns();
 
-            // CreationalPatterns();
+            CreationalPatterns();
         }
 
         static void Essentials()
@@ -112,6 +112,8 @@ namespace DesignPatterns
             // AbstractFactory();
 
             // Builder();
+
+            Prototype();
         }
 
         static void Memento()
@@ -398,6 +400,16 @@ namespace DesignPatterns
             // The specification for the aggregate exists on secondary storage and
             // one of many representations needs to be built in primary storage.
             BuilderPattern.Demo.Show();
+        }
+
+        static void Prototype()
+        {
+            // Prototype is a creational design pattern that lets you copy existing objects without
+            // making your code dependent on their classes.
+            // Also known as: Clone
+            // Problem:
+            // Application "hard wires" the class of object to create in each "new" expression.
+            PrototypePattern.Demo.Show();
         }
     }
 }
