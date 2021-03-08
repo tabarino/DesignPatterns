@@ -46,6 +46,7 @@
     <ProjectReference Include="..\PrototypePattern\PrototypePattern.csproj" />
     <ProjectReference Include="..\PrototypePatternWithICloneable\PrototypePatternWithICloneable.csproj" />
     <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj" />
+    <ProjectReference Include="..\SingletonPatternThreadSafe\SingletonPatternThreadSafe.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -422,7 +422,8 @@ namespace DesignPatterns
             // Problem:
             // Application needs one, and only one, instance of an object.
             // Additionally, lazy initialization and global access are necessary.
-            SingletonPattern.Demo.Show();
+            // SingletonPattern.Demo.Show();
+            SingletonPatternThreadSafe.Demo.Show();
         }
     }
 }
